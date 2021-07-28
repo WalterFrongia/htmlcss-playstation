@@ -1,0 +1,32 @@
+body{
+    color:white;
+}
+.border{
+    border:1px solid green;
+}
+.logo-sony{
+    background-color: black;
+}
+
+.my-container-img>img{
+    width: 100%;
+}
+
+.nav-bar{
+    background-color: rgb(84, 84, 204);
+    height: 80px;
+}
+
+.jumbotron{
+    background-color:rgb(141, 113, 167);
+    height: 500px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.my-container-img-jumbotron>img{
+    width:100%;
+}
+
