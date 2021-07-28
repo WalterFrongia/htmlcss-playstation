@@ -2,10 +2,17 @@ body{
     color:white;
 }
 .border{
-    border:1px solid green;
+    border:10px solid blue;
+    height: 100px;
 }
 .logo-sony{
     background-color: black;
+    height: 30px;
+    text-align: right;
+}
+
+.logo-sony>img{
+    height: 80%;
 }
 
 .my-container-img>img{
@@ -18,15 +25,33 @@ body{
 }
 
 .jumbotron{
-    background-color:rgb(141, 113, 167);
-    height: 500px;
     background-image: url(../img/jumbo-bg.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 200px 0 50px 0;
 }
 
-.my-container-img-jumbotron>img{
+.my-container-img-jumbotron-banner>img{
     width:100%;
 }
 
+.jumbotron-button{
+    background-color: red;
+    color:white;
+    border-radius: 20px;
+    padding:5px 20px;
+    border:none;
+}
+
+.game-list-section{
+    background-color: rgb(132, 184, 214);
+    margin-bottom: 400px;
+}
+
+.my-img-returnal>img{
+  width: 100%;  
+}
+
+.my-img-ratchet-and-clank>img{
+    width:100%;
+}
