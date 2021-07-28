@@ -19,9 +19,8 @@ body{
     width: 100%;
 }
 
-.nav-bar{
-    background-color: rgb(84, 84, 204);
-    height: 80px;
+.nav-bar li{
+    color:black;
 }
 
 .jumbotron{
