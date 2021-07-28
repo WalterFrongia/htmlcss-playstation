@@ -19,15 +19,11 @@ body{
     width: 100%;
 }
 
-.nav-bar li{
-    color:black;
-}
-
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: right;
-    padding: 200px 0 50px 0;
+    padding: 250px 0 50px 0;
 }
 
 .my-container-img-jumbotron-banner>img{
@@ -52,8 +48,7 @@ body{
 
 .my-img-returnal>img,
 .my-img-ratchet-and-clank>img{
-  width: 100%;  
-  border:none;
+  width: 100%;
 }
 
 .my-container-img-listgame-section:hover{
