@@ -1,6 +1,3 @@
-body{
-    color:white;
-}
 .border{
     border:10px solid blue;
     height: 100px;
@@ -24,6 +21,7 @@ body{
     background-size: cover;
     background-position: right;
     padding: 250px 0 50px 0;
+    color:white;
 }
 
 .my-container-img-jumbotron-banner>img{
@@ -36,10 +34,6 @@ body{
     border-radius: 20px;
     padding:5px 20px;
     border:none;
-}
-
-.game-list-section{
-    margin-bottom: 400px;
 }
 
 .game-list-section img{
