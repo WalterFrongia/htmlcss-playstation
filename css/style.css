@@ -96,6 +96,11 @@
     color:white;
 }
 
+.news-game{
+    background-color: rgb(29, 29, 29);
+    color:white;
+}
+
 .my-img-container-it-takes-two>img{
     width:100%;
 }
