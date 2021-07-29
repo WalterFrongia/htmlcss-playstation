@@ -1,6 +1,5 @@
 .border{
     border:10px solid blue;
-    height: 100px;
 }
 .logo-sony{
     background-color: black;
@@ -66,4 +65,24 @@
     border-radius: 20px;
     padding:5px 20px;
     border:none;
+}
+
+.my-img-ps5>img{
+    width:100%;
+}
+
+.my-img-joypad>img{
+    width: 100%;
+}
+
+.my-img-headset>img{
+    width:100%;
+}
+
+.my-img-remote>img{
+    width:100%;
+}
+
+.my-img-camera>img{
+    width: 100%;
 }
