@@ -1,13 +1,13 @@
 .border{
     border:10px solid blue;
 }
-.logo-sony{
+.my-logo-sony{
     background-color: black;
     height: 30px;
     text-align: right;
 }
 
-.logo-sony>img{
+.my-logo-sony>img{
     height: 80%;
 }
 
@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.jumbotron{
+.my-jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: right;
@@ -85,4 +85,17 @@
 
 .my-img-camera>img{
     width: 100%;
+}
+
+.my-jumbotron-take{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0 100px 0;
+    color:white;
+}
+
+.my-img-container-it-takes-two>img{
+    width:100%;
 }
