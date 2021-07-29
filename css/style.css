@@ -92,10 +92,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px 0 100px 0;
+    padding: 50px 0 60px 0;
     color:white;
 }
 
 .my-img-container-it-takes-two>img{
     width:100%;
+}
+
+.my-img-tony-hawks>img{
+    width:100%;
+}
+
+.my-img-bandicoot>img{
+    width:100%;
+}
+
+.my-border-radius-news-game-section>img{
+    border-radius:25px;
 }
