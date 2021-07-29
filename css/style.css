@@ -112,3 +112,15 @@
 .my-border-radius-news-game-section>img{
     border-radius:25px;
 }
+
+.my-img-ps4-slim>img{
+    width:100%;
+}
+
+.button-exploration-ps4-section{
+    padding:5px 10px;
+    background-color: blue;
+    color:white;
+    border-radius:25px;
+    border:none;
+}
