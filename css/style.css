@@ -144,3 +144,7 @@
     color:rgb(36, 36, 255);
     border:none;
 }
+
+.my-container-img-store-sales>img{
+    width:100%;
+}
