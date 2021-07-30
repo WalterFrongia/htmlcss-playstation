@@ -165,3 +165,26 @@
 .my-img-container-social>img{
     width:100%;
 }
+
+.footer-container{
+    background-color: rgb(21, 74, 187);
+    color:white;
+}
+
+.footer-container>a{
+    color:white;
+}
+
+.my-img-container-footer>img{
+    width:100%;
+}
+
+.my-link-footer{
+    list-style-type: none;
+}
+
+.my-link-footer a{
+    list-style-type:none;
+    text-decoration: none;
+    color:white;
+}
