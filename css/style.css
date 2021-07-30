@@ -188,3 +188,7 @@
     text-decoration: none;
     color:white;
 }
+
+.my-img-play-footer>img{
+    width:20%;
+}
