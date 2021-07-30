@@ -191,4 +191,5 @@
 
 .my-img-play-footer>img{
     width:20%;
+    filter:brightness(0) invert(1); /*invert(99%) sepia(0%) saturate(2%) hue-rotate(292deg) brightness(105%) contrast(100%);*/
 }
