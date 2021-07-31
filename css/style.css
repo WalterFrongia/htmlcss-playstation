@@ -42,13 +42,14 @@
 .my-img-returnal>img,
 .my-img-ratchet-and-clank>img{
   width: 100%;
+  padding:3px;
+  border:3px solid transparent;
 }
 
-.my-container-img-listgame-section>img:hover{
-    background-color: white;
-    padding: 3px;
-    border:3px solid blue;
-    border-radius:25px;
+.my-img-returnal>img:hover,
+.my-img-ratchet-and-clank>img:hover{
+  border:3px solid blue;
+  border-radius:25px;
 }
 
 .my-img-ps5-section>img{
