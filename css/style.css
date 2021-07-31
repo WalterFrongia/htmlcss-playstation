@@ -1,6 +1,21 @@
-.border{
-    border:10px solid blue;
+/*CLASSI MOLTO UTILIZZATE GENERALI*/
+
+/* Classe utilizzata per contenitori con img che hanno come proprietà solo una width del 100% */
+.my-img-container-100>img{
+    width:100%;
 }
+
+/* Classi utilizzate per i colori del testo */
+.my-text-blue{
+    color:rgb(85, 116, 255);
+}
+
+.my-text-grey{
+    color:rgb(97, 96, 96);
+}
+
+
+/*BANNER HEADER LOGO SONY*/
 .my-logo-sony{
     background-color: black;
     height: 30px;
@@ -11,10 +26,7 @@
     height: 80%;
 }
 
-.my-container-img>img{
-    width: 100%;
-}
-
+/*JUMBOTRON PRIMA SEZIONE*/
 .my-jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -23,37 +35,27 @@
     color:white;
 }
 
-.my-container-img-jumbotron-banner>img{
-    width:100%;
-}
-
 .jumbotron-button{
-    background-color: red;
+    background-color: rgb(194, 69, 47);
     color:white;
     border-radius: 20px;
     padding:5px 20px;
     border:none;
 }
 
+/*Lista di videogiochi sotto il primo jumbotron*/
 .game-list-section img{
     border-radius:25px;
-}
-
-.my-img-returnal>img,
-.my-img-ratchet-and-clank>img{
-  width: 100%;
-  padding:3px;
-  border:3px solid transparent;
+    width: 100%;
+    padding:3px;
+    border-radius:25px;
+    border:3px solid transparent;
 }
 
 .my-img-returnal>img:hover,
 .my-img-ratchet-and-clank>img:hover{
   border:3px solid blue;
   border-radius:25px;
-}
-
-.my-img-ps5-section>img{
-    width: 100%;
 }
 
 .my-button-ps5-section{
@@ -64,26 +66,24 @@
     border:none;
 }
 
-.my-img-ps5>img{
-    width:100%;
+/*SEZIONE PS5 LISTA PRODOTTI IMG  CON HOVER*/
+.my-img-ps5,
+.my-img-joypad,
+.my-img-headset,
+.my-img-remote,
+.my-img-camera{
+    border-bottom: 2px solid transparent;
 }
 
-.my-img-joypad>img{
-    width: 100%;
+.my-img-ps5:hover,
+.my-img-joypad:hover,
+.my-img-headset:hover,
+.my-img-remote:hover,
+.my-img-camera:hover{
+    border-bottom:2px solid blue;
 }
 
-.my-img-headset>img{
-    width:100%;
-}
-
-.my-img-remote>img{
-    width:100%;
-}
-
-.my-img-camera>img{
-    width: 100%;
-}
-
+/*SEZIONE JUMBOTRON TAKE*/
 .my-jumbotron-take{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -93,29 +93,14 @@
     color:white;
 }
 
-.news-game{
+/*SEZIONE NOVITA' VIDEOGIOCHI*/
+.news-game-section{
     background-color: rgb(29, 29, 29);
     color:white;
 }
 
-.my-img-container-it-takes-two>img{
-    width:100%;
-}
-
-.my-img-tony-hawks>img{
-    width:100%;
-}
-
-.my-img-bandicoot>img{
-    width:100%;
-}
-
 .my-border-radius-news-game-section>img{
     border-radius:25px;
-}
-
-.my-img-ps4-slim>img{
-    width:100%;
 }
 
 .button-exploration-ps4-section{
@@ -126,12 +111,9 @@
     border:none;
 }
 
+/*PLAYSTATION PLUS SECTION*/
 .my-playstation-plus{
     background-color: rgb(170, 170, 170);
-}
-
-.my-container-img-ps-plus>img{
-    width:100%;
 }
 
 .my-container-img-plus-logo>img{
@@ -146,10 +128,7 @@
     border:none;
 }
 
-.my-container-img-store-sales>img{
-    width:100%;
-}
-
+/*SEZIONE PLAYSTATION NOW*/
 .playstation-now{
     background-color: rgb(0, 0, 61);
     color:white;
@@ -163,10 +142,7 @@
     border:none;
 }
 
-.my-img-container-social>img{
-    width:100%;
-}
-
+/*FOOTER*/
 .footer-container{
     background-color: rgb(21, 74, 187);
     color:white;
@@ -185,12 +161,11 @@
 }
 
 .my-link-footer a{
-    list-style-type:none;
     text-decoration: none;
     color:white;
 }
 
 .my-img-play-footer>img{
     width:20%;
-    filter:brightness(0) invert(1); /*invert(99%) sepia(0%) saturate(2%) hue-rotate(292deg) brightness(105%) contrast(100%);*/
+    filter:brightness(0) invert(1);
 }
