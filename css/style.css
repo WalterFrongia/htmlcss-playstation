@@ -14,6 +14,10 @@
     color:rgb(97, 96, 96);
 }
 
+.my-icon-nav-bar{
+    vertical-align: middle;
+    color:grey;
+}
 
 /*BANNER HEADER LOGO SONY*/
 .my-logo-sony{
@@ -26,6 +30,13 @@
     height: 90%;
 }
 
+.my-nav-bar-button{
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(58, 58, 58);
+    color:white;
+}
+
 /*JUMBOTRON PRIMA SEZIONE*/
 .my-jumbotron{
     background-image: url(../img/jumbo-bg.png);
@@ -35,7 +46,7 @@
     color:white;
 }
 
-.jumbotron-button{
+.my-jumbotron-button{
     background-color: rgb(194, 69, 47);
     color:white;
     border-radius: 20px;
@@ -117,6 +128,11 @@
     border:none;
 }
 
+/*SEZIONE PS4*/
+.my-img-ps4-section>img:hover{
+    cursor: pointer;
+}
+
 /*PLAYSTATION PLUS SECTION*/
 .my-playstation-plus{
     background-color: rgb(170, 170, 170);
@@ -154,17 +170,17 @@
 }
 
 /*SOCIAL MEDIA*/
-.social-media>img:hover{
+.my-social-media>img:hover{
     cursor: pointer;
 }
 
 /*FOOTER*/
-.footer-container{
+.my-footer-container{
     background-color: rgb(21, 74, 187);
     color:white;
 }
 
-.footer-container>a{
+.my-footer-container>a{
     color:white;
 }
 
