@@ -85,6 +85,7 @@
 .my-img-remote,
 .my-img-camera{
     border-bottom: 2px solid transparent;
+    opacity: 0.5;
 }
 
 .my-img-ps5:hover,
@@ -93,6 +94,7 @@
 .my-img-remote:hover,
 .my-img-camera:hover{
     border-bottom:2px solid blue;
+    opacity:0.9;
     cursor: pointer;
 }
 
