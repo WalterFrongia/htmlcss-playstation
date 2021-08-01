@@ -38,7 +38,7 @@
 }
 
 /*JUMBOTRON PRIMA SEZIONE*/
-.my-jumbotron{
+#my-jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
@@ -55,7 +55,7 @@
 }
 
 /*Lista di videogiochi sotto il primo jumbotron*/
-.game-list-section img{
+.my-game-list-section img{
     border-radius:25px;
     width: 100%;
     padding:3px;
@@ -97,7 +97,7 @@
 }
 
 /*SEZIONE JUMBOTRON TAKE*/
-.my-jumbotron-take{
+#my-jumbotron-take{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@
 }
 
 /*SEZIONE NOVITA' VIDEOGIOCHI*/
-.news-game-section{
+.my-news-game-section{
     background-color: rgb(29, 29, 29);
     color:white;
 }
@@ -120,7 +120,7 @@
     cursor: pointer;
 }
 
-.button-exploration-ps4-section{
+.my-button-exploration-ps4-section{
     padding:5px 10px;
     background-color: blue;
     color:white;
@@ -134,7 +134,7 @@
 }
 
 /*PLAYSTATION PLUS SECTION*/
-.my-playstation-plus{
+#my-playstation-plus{
     background-color: rgb(170, 170, 170);
 }
 
@@ -156,7 +156,7 @@
 }
 
 /*SEZIONE PLAYSTATION NOW*/
-.playstation-now{
+#my-playstation-now{
     background-color: rgb(0, 0, 61);
     color:white;
 }
